@@ -190,6 +190,7 @@ nav ul li{
 }
 .project-title{
     margin-bottom: var(--bottom-margin);
+    overflow-wrap: break-word;
     height: 80px;
     width: 100%;
 }
