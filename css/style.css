@@ -11,6 +11,7 @@
     --padding-margin: 8px;
     --line-height: 25px;
     --transition: 0.3s;
+    --bottom-margin: 20px;
 }
 
 *{
@@ -173,5 +174,32 @@ nav ul li{
 .projects-container{
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+}
+.projects-title{
+    text-align: center;
+    margin-bottom: var(--padding-margin);
+}
+.project-container{
+    text-align: center;
+    width: 350px;
+    padding: 15px;
+}
+.project-container p{
+    padding: 10px;
+}
+.project-title{
+    margin-bottom: var(--bottom-margin);
+    height: 80px;
+    width: 100%;
+}
+.project-text{
+    margin-bottom: var(--bottom-margin);
+}
+.project-card{
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 2px 6px 2px var(--secondary-shadow);
+    padding: 20px;
+    margin: 10px;
 }
